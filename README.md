@@ -6,7 +6,7 @@
 
 **[打开30课课程目录 →](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site)** · [阅读完整课程方案](30天亲子历史地理谈话方案.md) · [反馈与建议](https://github.com/ivanxia1988/history-geography-lessons/issues)
 
-网页公开访问，无需登录或密码。当前已完成 **12 / 30** 课，其余课程逐课制作。
+网页公开访问，无需登录或密码。当前已完成 **30 / 30** 课，均可从目录进入互动网页。
 
 ![课程目录预览](课程目录预览.png)
 
@@ -34,8 +34,26 @@
 | 10 · 诸葛亮北伐 | 山能保护一个政权，为什么也会困住它？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/10/) |
 | 11 · 隋朝大运河 | 天然河流多向东，为什么要修南北水道？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/11/) |
 | 12 · 《清明上河图》里的开封 | 为什么一座大城市的生活要围着河流转？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/12/) |
+| 13 · 明成祖迁都北京 | 首都为什么未必建在最富庶的地方？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/13/) |
+| 14 · 罗马与地中海 | 一片海怎样成为帝国的交通骨干？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/14/) |
+| 15 · 汉尼拔翻越阿尔卑斯山 | 为什么有时主动选择险路？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/15/) |
+| 16 · 亚历山大东征 | 军队能向前走，统治就能跟上吗？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/16/) |
+| 17 · 君士坦丁堡 | 为什么这座城市长期被反复争夺？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/17/) |
+| 18 · 威尼斯 | 没有大片农田的水城，怎样成为商贸中心？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/18/) |
+| 19 · 达·伽马绕过非洲 | 欧洲人为什么愿意绕那么远去印度？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/19/) |
+| 20 · 哥伦布向西航行 | 一个地理判断的错误，怎样改变世界？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/20/) |
+| 21 · 麦哲伦—埃尔卡诺船队 | 横跨大洋，最难的只是找到海峡吗？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/21/) |
+| 22 · 土豆、玉米与辣椒的旅行 | 今天的家常饭，为什么带着世界航海史？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/22/) |
+| 23 · 英国工业革命 | 工厂为什么在一些地方聚集起来？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/23/) |
+| 24 · 拿破仑远征俄国 | 占领重要城市，为什么仍可能输掉战争？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/24/) |
+| 25 · 美国横贯大陆铁路与华工 | 一条铁路怎样改变距离的意义？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/25/) |
+| 26 · 美国南北战争与密西西比河 | 控制一条河，怎样影响整个战场？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/26/) |
+| 27 · 苏伊士运河 | 一条人工水道怎样改变世界航路？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/27/) |
+| 28 · 巴拿马运河 | 船为什么需要坐“水上电梯”？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/28/) |
+| 29 · 诺曼底登陆 | 军事行动为什么要听气象预报？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/29/) |
+| 30 · 上海港的成长 | 一座港口城市，怎样连接内陆与世界？ | [进入课程](https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site/lessons/30/) |
 
-后续继续制作迁都北京、罗马与地中海、工业革命、苏伊士运河等第13—30课。完整安排见[三十天谈话方案](30天亲子历史地理谈话方案.md)。这里的“30天”是30次独立谈话，不要求连续打卡。
+完整安排见[三十天谈话方案](30天亲子历史地理谈话方案.md)。这里的“30天”是30次独立谈话，不要求连续打卡。
 
 ## 一课怎么使用
 
@@ -54,7 +72,7 @@
 - 保留地点点击、拖动缩放、上一地点／下一地点，以及对应讲解。
 - 第二课起采用二维地图与卫星影像切换，优先保证清楚、易读、便于家长讲述。
 - 第一课保留早期三维地形探索版本；后续课程不再扩展飞行或自动巡游。
-- 每课独立制作与发布，来源、内容和课程链接同步维护。
+- 每课保留独立内容目录，来源、讲解稿和课程链接同步维护。
 
 ## 源码与本地预览
 

@@ -1,0 +1,784 @@
+{
+  "date": "2026-09-27",
+  "environment": "Local browser at 127.0.0.1:8767; production checks recorded in PROGRESS.md",
+  "lessons": [
+    {
+      "lesson": 13,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "从经济条件看，为什么不留在这里？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "迁到熟悉的北方，解决什么问题？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "山地是屏障，还是通道？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "都城的粮食先在哪里停下来？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "一座北方首都，为什么要回头看南方？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 14,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "一座大城每天的饭，从哪里来？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "海船到港以后，粮食还没到饭桌"
+        },
+        {
+          "position": "03 / 05",
+          "title": "怎样把河谷的粮食接上海路？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "昔日对手的地区，后来成为帝国的一部分"
+        },
+        {
+          "position": "05 / 05",
+          "title": "为什么修路和航海要一起讲？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 15,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "远征的起点也需要一个后方"
+        },
+        {
+          "position": "02 / 05",
+          "title": "还没有到雪山，河流已经是一道难题"
+        },
+        {
+          "position": "03 / 05",
+          "title": "最难的可能不是山有多高，而是队伍怎么通过"
+        },
+        {
+          "position": "04 / 05",
+          "title": "下山以后，为什么战争才刚进入下一阶段？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "为什么震撼对手，仍不等于赢下战争？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 16,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "远征从哪里获得最初的力量？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "为什么征服者还要建城？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "从平原进入高原，补给问题怎样变化？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "打赢之后，怎样让远方的人听命？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "为什么到得远，并不代表能永远向前？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 17,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "从黑海去地中海，要先找到哪道门？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "天然港湾能自动造就强城吗？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "有墙、有海，为什么1453年仍会失守？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "过了一道海峡，为什么还不能放心？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "好位置为什么也会吸引争夺？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 18,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "耕地少的地方，为什么能够出现城市？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "外海与内湖之间，为什么有一道细长边界？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "贸易力量为什么离不开手工业？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "水城的生意，为什么还要看陆地？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "沿着一片海，城市怎样走向更远处？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 19,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "想向东做生意，为什么先向南出发？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "停航修船，算不算远征的一部分？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "看见海角，为什么还不等于绕得过去？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "来到印度洋，为什么还需要别人的知识？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "抵达目的地，为什么不等于做成生意？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 20,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "方向想对了，为什么距离仍然可能算错？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "跨洋之前，岛屿为什么有用？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "看见陆地，能证明自己到了亚洲吗？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "一段海岸，为什么不够说明整片陆地？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "同一条新航路，对谁意味着什么？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 21,
+      "nodes": [
+        {
+          "position": "01 / 06",
+          "title": "向西找香料，最初并不是要画一个漂亮的圆"
+        },
+        {
+          "position": "02 / 06",
+          "title": "找到门以后，为什么还不知道门后有多远？"
+        },
+        {
+          "position": "03 / 06",
+          "title": "蓝色不是空白，而是漫长的消耗"
+        },
+        {
+          "position": "04 / 06",
+          "title": "抵达有人居住的地方，为何仍有危险？"
+        },
+        {
+          "position": "05 / 06",
+          "title": "香料到了船上，为什么任务仍没结束？"
+        },
+        {
+          "position": "06 / 06",
+          "title": "谁完成了最后一段，应该怎样记住这次航行？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 06",
+        "previous": "01 / 06",
+        "readingSections": 6,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 22,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "玉米不是一开始就长成今天的样子"
+        },
+        {
+          "position": "02 / 05",
+          "title": "土豆的家乡为什么不能和玉米画成同一个点？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "种子跨过海洋，还要过哪些关？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "同一种作物能不能走不止一条路？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "外来的植物怎样变成地方味道？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 23,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "不种棉花的城市，为什么能制造大量棉布？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "工厂的门口，为什么一直延伸到港口？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "煤在地下，怎样变成工厂可以使用的动力？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "工业革命一开始就全靠蒸汽吗？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "便宜的棉布，代价由谁承担？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 24,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "越过边界之后，补给怎样追上军队？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "对手后退，为什么也可能让进攻者更难受？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "打了一场大战，为什么仍没有结束？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "占领重要城市，为什么换不来和谈？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "原路退回，为什么不是把困难倒着播放一次？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 25,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "铁路从纸面变成现实，第一步缺什么？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "地图上同样一厘米，施工难度为什么不同？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "离开雪山，就没有困难了吗？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "最后一颗道钉，连接的是怎样的网络？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "距离缩短，谁的生活被改变？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 26,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "一条河，怎样把很远的地区连起来？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "高岸上的据点为什么难以绕开？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "河既是南北通道，也可能成为东西障碍"
+        },
+        {
+          "position": "04 / 05",
+          "title": "一座城投降，为什么还要看另一座？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "从一座城回到一整张运输网"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 27,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "改变世界航路，为什么从一段地峡开始？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "运河一定是一条宽度不变的直沟吗？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "船为什么不需要先被抬上高处？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "穿过运河以后，为什么还没有到亚洲港口？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "哪两地之间的船最受益，能不能一概而论？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 28,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "地峡很窄，为什么工程仍很难？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "远洋船为什么会航行在淡水湖里？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "选择船闸方案，为什么还是要挖山？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "船的“水上电梯”怎样工作？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "走出运河以后，还要记住谁？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 29,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "人和船准备好了，为什么还不能立刻出发？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "距离最近，为什么不自动成为最佳地点？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "天气窗口为什么不等于完美天气？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "到了岸边，潮水和地形还会改变什么？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "越过海滩，为什么不代表整场行动已经结束？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    },
+    {
+      "lesson": 30,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "上海的港口历史，是从1843年才开始的吗？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "内河、长江与海洋怎样接起来？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "港口背后，为什么要看生产地区？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "离海很远的地方，怎样参与海港的故事？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "技术改变了什么，又留下什么新要求？"
+        }
+      ],
+      "lastNextDisabled": true,
+      "hintVisible": true,
+      "controls": {
+        "firstDisabled": true,
+        "next": "02 / 05",
+        "previous": "01 / 05",
+        "readingSections": 5,
+        "homeLink": "../../"
+      }
+    }
+  ],
+  "responsive": [
+    {
+      "errorVisible": false,
+      "lesson": 13,
+      "normalTiles": 9,
+      "satelliteTiles": 9,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 14,
+      "normalTiles": 3,
+      "satelliteTiles": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 15,
+      "normalTiles": 9,
+      "satelliteTiles": 9,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 16,
+      "normalTiles": 6,
+      "satelliteTiles": 5,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 17,
+      "normalTiles": 3,
+      "satelliteTiles": 2,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 18,
+      "normalTiles": 9,
+      "satelliteTiles": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 19,
+      "normalTiles": 6,
+      "satelliteTiles": 5,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 20,
+      "normalTiles": 4,
+      "satelliteTiles": 4,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 21,
+      "normalTiles": 4,
+      "satelliteTiles": 4,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 22,
+      "normalTiles": 4,
+      "satelliteTiles": 4,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 23,
+      "normalTiles": 4,
+      "satelliteTiles": 4,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 24,
+      "normalTiles": 4,
+      "satelliteTiles": 2,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 25,
+      "normalTiles": 3,
+      "satelliteTiles": 3,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 26,
+      "normalTiles": 4,
+      "satelliteTiles": 2,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 27,
+      "normalTiles": 6,
+      "satelliteTiles": 5,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 28,
+      "normalTiles": 4,
+      "satelliteTiles": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 29,
+      "normalTiles": 6,
+      "satelliteTiles": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "errorVisible": false,
+      "lesson": 30,
+      "normalTiles": 6,
+      "satelliteTiles": 6,
+      "scrollWidth": 390,
+      "width": 390
+    }
+  ],
+  "sharedChecks": {
+    "mapMarkerLesson28": "04 / 05 米拉弗洛雷斯船闸",
+    "satelliteLesson28": {
+      "loaded": 6,
+      "total": 6
+    },
+    "overviewLesson21": "desktop visually inspected",
+    "catalogReady": 30,
+    "catalogPending": 0,
+    "mapZoomLesson28": {
+      "before": "10 km",
+      "after": "5 km",
+      "overview": "10 km"
+    },
+    "mapDragLesson28": true
+  }
+}

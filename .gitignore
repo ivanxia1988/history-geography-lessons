@@ -1,0 +1,16 @@
+# Local machine files
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/
+*.py[cod]
+node_modules/
+
+# Credentials and machine-specific deployment settings
+.env
+.env.*
+!.env.example
+**/.openai/
+
+# Each lesson retains its own local Sites Git repository
+**/.git/

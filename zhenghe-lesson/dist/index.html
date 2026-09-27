@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>郑和下西洋：大船为什么也要等风？</title><meta name="description" content="初中生亲子历史地理第二课：在普通地图与卫星实景图之间切换，从季风、港口和海峡理解郑和下西洋。"><link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="style.css"><script defer src="vendor/leaflet.js"></script><script defer src="vendor/land.js"></script><script defer src="app.js"></script></head>
+<body>
+<header><div class="brand"><span class="mark">经纬</span>跟着历史读地图</div><span>第二课 ／ 郑和下西洋</span></header>
+<main>
+  <div class="intro"><div><p class="eyebrow">明代 · 1405—1433年 · 从中国东南沿海到印度洋</p><h1>大船为什么也要等风？</h1></div><p class="lead">一张地图，读懂季风、海峡与港口。<br>亲子共读约 15—20 分钟</p></div>
+  <p class="opening"><b>先想一想</b>如果船足够大，又有指南针，是不是随时都能出海，朝目的地笔直开过去？</p>
+  <nav id="place-list" class="place-list" aria-label="选择讲解地点"></nav>
+  <section class="workspace" aria-label="地图与地点讲解">
+    <div class="map-column">
+      <div class="toolbar"><div class="map-switch" aria-label="选择底图"><button id="map-normal" aria-pressed="true">普通地图</button><button id="map-satellite" aria-pressed="false">卫星实景图</button></div><button class="quiet" id="overview">查看全程</button></div>
+      <div class="map-wrap"><div id="map" aria-label="郑和下西洋地点地图，可拖动和缩放"></div><div class="map-status" id="map-status" role="status" hidden></div></div>
+      <div class="map-footer"><span id="map-kind">普通地图 · 现代地名帮助定位</span><button id="focus-place" class="quiet">放大当前地点</button></div>
+      <div class="legend"><span><i class="line"></i>中国沿海—东南亚—印度西岸</span><span><i class="line branch"></i>后续航次的西向分支</span></div>
+      <p class="caption">综合七次下西洋的部分代表地点；虚线是概略联系，不是某一次航行的完整轨迹。地点编号仅表示讲解顺序。</p>
+      <div class="pager"><button id="previous">← 上一地点</button><span id="position">01 / 07</span><button id="next">下一地点 →</button></div>
+    </div>
+    <aside id="story" class="story" aria-label="地点讲解" aria-live="polite"></aside>
+  </section>
+  <section class="wind-note"><div><p class="eyebrow">讲完航路，再理解“等风”</p><h2>海路也有季节节奏</h2></div><div><p><b>北半球冬季：</b>南海与北印度洋许多海域盛行东北季风，风从东北吹向西南。</p><p><b>北半球夏季：</b>北印度洋许多海域盛行西南季风，风从西南吹向东北。</p><p class="muted">这是区域性概括。不能把所有海段都套进同一张时刻表：跨赤道、海峡内和季节转换期的风与洋流更复杂；顺风也不等于没有风浪。</p></div></section>
+  <section class="takeaway"><span>最后用自己的话解释</span><p>为什么一支强大的船队，仍然需要<span>等待、停靠和绕行</span>？</p></section>
+  <details class="sources"><summary>给家长：讲解顺序、史料与地图说明</summary><div class="source-grid"><div><h2>怎么讲这一课</h2><p>先提开场问题，再依次看长乐、占城、马六甲、锡兰和古里。最后比较忽鲁谟斯与东非两个方向。每个地点讲一个地理关键点，给孩子时间解释，再展开讨论提示。</p><p>在马六甲切到卫星实景图，放大观察海峡两侧的陆地；在斯里兰卡看岛屿与印度半岛的位置。最后让孩子在自己的地图册上找出这两处地点。</p><p>远航还依赖财政、造船、人员组织、外交与当地关系。技术和地理都不能单独解释全部历史。</p></div><div><h2>史料与延伸阅读</h2><ul><li><a href="https://www.fj.gov.cn/zwgk/ztzl/sxzygwzxsgzx/sdjj/hyjj/202407/t20240712_6482586.htm" target="_blank" rel="noopener noreferrer">福建省政府：为何从福建开洋</a></li><li><a href="https://www.chnmuseum.cn/zp/zpml/csp/202008/t20200826_247451.shtml" target="_blank" rel="noopener noreferrer">中国国家博物馆：郑和铸青铜钟</a></li><li><a href="https://www.nopss.gov.cn/n1/2023/1018/c448861-40097871.html" target="_blank" rel="noopener noreferrer">全国哲社办刊文：古里与航路的延伸</a></li><li><a href="https://dfz.nanjing.gov.cn/gzdt/202507/t20250708_5602912.html" target="_blank" rel="noopener noreferrer">南京市地方志办：七下西洋的时代与所历地区</a></li><li><a href="https://www.nesdis.noaa.gov/about/k-12-education/severe-weather/what-monsoon" target="_blank" rel="noopener noreferrer">NOAA：季风为何随季节转换</a></li></ul></div><div><h2>读地图的边界</h2><p>各航次及支队的目的地不同，不说每条船都去过东非。“西洋”在此不能理解为今天的西欧。宝船具体尺度有争议，本课不采用夸张尺寸。</p><p>坐标采用现代城市、遗址附近或区域代表点，不等于古代泊位的精确位置。卫星实景图是现代影像，不是实时画面或古代地貌复原。</p><p>普通地图：© OpenStreetMap contributors。卫星影像：Esri World Imagery 及其数据提供方。备用海陆轮廓：Natural Earth，公共领域。在线底图需要联网。</p></div></div></details>
+</main>
+<footer><span>先在网页上看懂关系，再到地图册上找到位置。</span><a href="https://xuanzang-map-lesson-cheng.ivanxia1988.chatgpt.site" target="_blank" rel="noopener noreferrer">第一课：玄奘取经 ↗</a></footer>
+<noscript><p>请启用 JavaScript 使用地点互动与地图切换。</p></noscript>
+</body></html>

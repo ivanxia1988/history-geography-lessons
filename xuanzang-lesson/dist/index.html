@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>玄奘取经：去印度，为什么先向西北？</title>
+  <meta name="description" content="跟着历史读地图。通过地形、补给城镇和去回程对照，探索玄奘为什么选择这条路。适合初中生与家长一起讨论。">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="vendor/maplibre-gl.css"><link rel="stylesheet" href="style.css">
+  <script defer src="vendor/leaflet.js"></script><script defer src="vendor/land.js"></script><script defer src="vendor/maplibre-gl.js"></script><script defer src="terrain3d.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<header class="masthead"><div class="brand"><span class="brand-mark" aria-hidden="true">经纬</span><span>跟着历史读地图</span></div><span class="lesson-id">第一课 <span>／ 玄奘取经</span></span></header>
+<main>
+  <div class="intro"><div><p class="eyebrow">唐代 · 7世纪 · 从长安到印度次大陆</p><h1>去印度，为什么先向西北？</h1></div><p class="intro-note">飞入天山与帕米尔。<br>沿着行程，看山谷怎样改变道路。</p></div>
+  <nav class="learning-nav" aria-label="学习环节">
+    <button data-mode="guess" aria-pressed="true"><span>01</span> 先猜路线</button>
+    <button data-mode="journey" aria-pressed="false"><span>02</span> 跟着玄奘走</button>
+    <button data-mode="atlas" aria-pressed="false"><span>03</span> 对照真实地图</button>
+  </nav>
+  <section class="workspace" aria-label="互动历史地理地图">
+    <div class="map-column">
+      <div class="view-toolbar"><div class="view-switch" aria-label="地图维度"><button id="view-3d" aria-pressed="true">3D 地形</button><button id="view-2d" aria-pressed="false">平面地图</button></div><span>真实高程 · 地形比例 1∶1</span></div>
+      <div class="map-toolbar"><div class="route-switch" id="route-switch" hidden aria-label="选择行程"><button data-route="out" aria-pressed="true">去程</button><button data-route="back" aria-pressed="false">回程</button><button data-route="both" aria-pressed="false">往返对照</button></div><span id="map-heading">先观察地形，再选择路线</span><button id="overview" class="quiet">全图</button></div>
+      <div class="map-wrap" id="map-wrap"><div id="map-3d" aria-label="三维地形，可拖动、旋转和缩放"></div><div id="scene-badge" class="scene-badge" hidden><span>正在观察</span><strong id="scene-name"></strong><small id="scene-detail"></small></div><div id="terrain-status" class="terrain-status" role="status">正在载入三维地形…</div><div id="map" aria-label="玄奘行程互动地图，可拖动和缩放"></div><div class="north" aria-hidden="true">N<span>↑</span></div><div class="map-status" id="map-status" role="status" hidden></div></div>
+      <div class="flight-controls" id="flight-controls">
+        <div class="flight-primary"><button id="flight-play">逐站飞行</button><button id="valley-tour">山谷巡游</button><button id="flight-stop" disabled>暂停</button></div>
+        <div class="camera-controls"><button id="camera-low">低空观察</button><button id="camera-top">俯瞰地形</button><button id="camera-left" aria-label="向左旋转视角">↶</button><button id="camera-right" aria-label="向右旋转视角">↷</button><button id="scene-tian">直达天山</button><button id="scene-pamir">直达帕米尔</button></div>
+        <p id="flight-progress" role="status">点击地点飞到下一站，也可以拖动地图自由观察。</p>
+        <p class="flight-note">右键拖动旋转视角；手机双指缩放、旋转。巡游镜头用于观察现代地形，不是玄奘的精确行走轨迹。</p>
+      </div>
+      <div class="map-controls"><label><input type="checkbox" id="terrain-toggle" checked> 地形提示</label><label><input type="checkbox" id="town-toggle"> 补给城镇</label><label id="route-toggle-label" hidden><input type="checkbox" id="route-toggle"> 叠加历史路线</label><span class="map-hint">拖动探索 · ＋／－缩放</span></div>
+      <div class="legend" id="legend"><span><i class="line hypothetical"></i> 选择后显示你的设想</span></div>
+      <p class="map-caption">路线是关键地点间的概略连线，不是精确古道。地形名称标注代表所在区域，未绘制古代国界。</p>
+    </div>
+    <aside class="story-panel" id="story-panel" aria-label="地图讲解"><div id="story" aria-live="polite"></div></aside>
+  </section>
+  <section class="stops-section" id="stops-section" hidden aria-label="行程地点选择"><div class="section-label"><span id="stops-title">沿去程探索</span><span>点击地点，查看当时的选择</span></div><div id="stop-list" class="stop-list"></div></section>
+  <section class="takeaway"><span class="takeaway-label">这节课想留下的问题</span><p>古人选路，究竟是在找<span>最短的距离</span>，还是<span>能一路走通的条件</span>？</p></section>
+  <details class="source-notes"><summary>给家长：讲解依据与地图说明</summary><div class="source-grid"><div><h2>怎样一起看</h2><p>先让孩子解释自己的选路理由，再打开去程。雪山与荒漠不必评出唯一的“最难”：缺水、失温、缺氧、迷路和补给中断是不同风险。最后切换现实地图，让孩子自己找到天山、帕米尔和青藏高原。</p><p>地理限制并不等于历史的唯一原因。沿途统治者的支持、寺院、向导和求学目的也影响行程。玄奘不是只有“走到印度”一个目标，他还在当地广泛游学。</p></div><div><h2>史料与地名</h2><ul><li><a href="https://zh.wikisource.org/wiki/大唐大慈恩寺三藏法師傳/卷01" target="_blank" rel="noopener noreferrer">《慈恩传》卷一：求法动机、河西与高昌</a></li><li><a href="https://zh.wikisource.org/wiki/大唐大慈恩寺三藏法師傳/卷02" target="_blank" rel="noopener noreferrer">《慈恩传》卷二：凌山、中亚与入印度行程</a></li><li><a href="https://zh.wikisource.org/wiki/大唐西域記/12" target="_blank" rel="noopener noreferrer">《大唐西域记》卷十二：葱岭与归途</a></li><li><a href="https://historytourism.scu.edu.cn/info/1035/3069.htm" target="_blank" rel="noopener noreferrer">四川大学：归途古地名与路线的考证分歧</a></li><li><a href="https://whc.unesco.org/en/list/1502/" target="_blank" rel="noopener noreferrer">UNESCO：那烂陀遗址与位置</a></li></ul><p>城镇点采用今址附近的概略坐标；山地用区域代表点。凌山具体山口仍有争议，不将图上点视为确定通行口。三维巡游选取天山与帕米尔的代表性山地区域，观察点和镜头连线均不等于考证确定的古道。三维地形由高程数据与卫星影像构成，不是地面实景或建筑摄影测量模型。古代“葱岭”范围与现代帕米尔不能完全等同。印度境内游学与若干支线省略。</p></div><div><h2>地图来源</h2><p>三维高程：<a href="https://registry.opendata.aws/terrain-tiles/" target="_blank" rel="noopener noreferrer">Mapzen Terrain Tiles</a>（多来源数字高程，Terrarium 编码），高程比例 1∶1。卫星影像：Esri World Imagery，版权归 Esri 及各数据提供方。三维渲染：MapLibre GL JS。地形底图：Esri World Shaded Relief，数据来源包括 Esri、USGS、NOAA。现代地图：© OpenStreetMap contributors。备用海陆轮廓：Natural Earth，公共领域。</p><p>底图显示现代地表，仅用于理解空间关系，不表示唐代水系、城市和植被全部与今天相同。现代地图出现的国界属于现代定位信息。在线底图需要网络；加载失败时会提示。</p><a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener noreferrer">Natural Earth 使用说明</a></div></div></details>
+</main><footer><span>历史不是一串地名，而是人在这些地方作出的选择。</span><span>第一课 · 亲子共读 15—20 分钟</span></footer>
+<noscript><p>请启用 JavaScript 使用互动地图。仍可阅读下方讲解依据与本地《30天亲子历史地理谈话方案》。</p></noscript>
+</body></html>

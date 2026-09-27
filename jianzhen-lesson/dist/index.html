@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>遣唐使与鉴真东渡：海是墙，也是路</title><meta name="description" content="初中生亲子历史地理第三课：切换普通地图与卫星实景图，比较遣唐使航路，跟随鉴真东渡理解岛屿、海峡与人的选择。"><link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="style.css"><script defer src="vendor/leaflet.js"></script><script defer src="vendor/land.js"></script><script defer src="app.js"></script></head>
+<body>
+<header><div class="brand"><span class="mark">经纬</span>跟着历史读地图</div><a class="home-link" href="https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site">← 课程目录</a></header>
+<main>
+<div class="intro"><div><p class="eyebrow">第三课 · 遣唐使与鉴真东渡 · 唐代7—9世纪</p><h1>海是墙，也是路</h1></div><p class="lead">从中日海路，看见地理与人的选择。<br>亲子共读约 15—20 分钟</p></div>
+<p class="opening"><b>先想一想</b>如果你要从日本去唐朝：沿岛屿和海岸绕行，还是直接横渡东海？先看地图，说出你最担心什么。</p>
+<nav id="place-list" class="place-list" aria-label="选择讲解地点"></nav>
+<section class="workspace" aria-label="地图与地点讲解">
+<div class="map-column">
+<div class="toolbar"><div class="map-switch" aria-label="选择底图"><button id="map-normal" aria-pressed="true">普通地图</button><button id="map-satellite" aria-pressed="false">卫星实景图</button></div><button class="quiet" id="overview">查看全图</button></div>
+<div class="map-wrap"><div id="map" aria-label="遣唐使与鉴真东渡地点地图，可拖动和缩放"></div><div class="map-status" id="map-status" role="status" hidden></div></div>
+<div class="map-footer"><span id="map-kind">普通地图 · 现代地名帮助定位</span><button id="focus-place" class="quiet">放大当前地点</button></div>
+<div class="legend"><span><i class="line"></i>遣唐使北路示意</span><span><i class="line branch"></i>遣唐使东海直渡示意</span><span><i class="line ganjin"></i>鉴真753年东渡部分海段</span></div>
+<p class="caption">三条线代表不同航路或行程，不能首尾相接当作一次旅行。海线为概略示意，省略内陆与沿岸细段；编号是讲解顺序，不是实际行程顺序。</p>
+<div class="pager"><button id="previous">← 上一地点</button><span id="position">01 / 07</span><button id="next">下一地点 →</button></div>
+</div><aside id="story" class="story" aria-label="地点讲解" aria-live="polite"></aside>
+</section>
+<section class="wind-note"><div><p class="eyebrow">讲完地图，再串起故事</p><h2>两种方向，同一片海</h2></div><div><p><b>赴唐求学：</b>日本使团、留学生与僧人前往唐朝。路线既受海况影响，也与沿岸关系和目的地有关。</p><p><b>鉴真赴日：</b>应日本僧人的邀请，鉴真经历多次受挫，753年成功渡海，754年到奈良，759年唐招提寺建立。[5][7][9]</p><p class="muted">“六次东渡”包含未能成行、受阻等不同情况，不能讲成六次都完整横渡了东海。图中紫线仅表示最后一次成功东渡的部分海段。</p></div></section>
+<section class="takeaway"><span>最后用自己的话解释</span><p>为什么同一片海，既是障碍，又能成为<span>人与知识往来的通道</span>？</p></section>
+<details class="sources"><summary>给家长：讲解顺序、史料与地图说明</summary><div class="source-grid">
+<div><h2>15—20分钟怎么讲</h2><p>开场2分钟：让孩子先选一条路线。随后用对马、五岛比较绕行与直渡；用扬州、长安说明海路如何衔接内陆。</p><p>在长安处换叙事主线，再用冲绳、秋目、奈良讲鉴真成功东渡。选一道问题让孩子先解释，再展开提示。用卫星图看对马两侧的海、五岛的岛群和秋目的海湾。</p><p>最后3分钟拿出地图册，重新找出两国、朝鲜半岛、东海和七个地点。讨论时兼顾船只、补给、海况、外交关系和协作，不把成功全部归因于地理或个人毅力。</p></div>
+<div><h2>史料与延伸阅读</h2><ol>
+<li><a href="https://www.mlit.go.jp/tagengo-db/R4-00662.html" target="_blank" rel="noopener noreferrer">日本国土交通省：遣唐使与五岛候风</a></li>
+<li><a href="https://www.kunaicho.go.jp/learn/culture/kosyo/kosho-r02.html" target="_blank" rel="noopener noreferrer">东野治之讲稿（宫内厅收录）：遣唐使与交流方式的变化</a></li>
+<li><a href="https://www.mofa.go.jp/mofaj/area/china/pdfs/rekishi_kk_j-2.pdf" target="_blank" rel="noopener noreferrer">日中历史共同研究：古代·中近世史总论（PDF）</a></li>
+<li><a href="https://www.pref.kagoshima.jp/ab23/pr/gaiyou/rekishi/genshi/kentoshi.html" target="_blank" rel="noopener noreferrer">鹿儿岛县：北路、南路与南岛路</a></li>
+<li><a href="https://www.toshodaiji.jp/ganjin.html" target="_blank" rel="noopener noreferrer">唐招提寺：鉴真生平与东渡</a></li>
+<li><a href="https://www.zjg.gov.cn/zjg/aboutgwhyz/201709/d6e506082e9941a5a312690c72ba81a5.shtml" target="_blank" rel="noopener noreferrer">张家港市政府：黄泗浦遗址与第六次东渡</a></li>
+<li><a href="https://kaidanin.or.jp/ganjin/" target="_blank" rel="noopener noreferrer">太宰府戒坛院：经冲绳、屋久岛赴日的行程</a></li>
+<li><a href="https://www.pref.kagoshima.jp/ab23/pr/gaiyou/rekishi/genshi/ganzin.html" target="_blank" rel="noopener noreferrer">鹿儿岛县：鉴真在秋目登陆</a></li>
+<li><a href="https://www.toshodaiji.jp/chinese/index.html" target="_blank" rel="noopener noreferrer">唐招提寺中文介绍：建寺与传承</a></li>
+</ol></div>
+<div><h2>读地图的边界</h2><p>遣唐使横跨多个时期，不同航次、船只与往返路线并不相同。派遣次数还涉及任命、实际出发与成功抵达等统计口径，本课不要求记住单一总次数。</p><p>北路、直渡线仅供空间比较；紫线从中国沿海区域示意至冲绳、屋久岛、秋目，不复原每次停泊及漂流。长安、扬州、奈良为内陆讲解点，未以直线冒充古代水陆道路。</p><p>坐标取现代地点或区域代表点。现代国界不代表唐代国界；卫星图不是实时画面，也不代表古代海岸、港湾与聚落完全相同。</p><p>普通地图：© OpenStreetMap contributors。卫星影像：Esri World Imagery及其数据提供方。备用海陆轮廓：Natural Earth，公共领域。在线底图需要联网。</p></div>
+</div></details>
+</main><footer><span>先在网页上看懂关系，再到地图册上找到位置。</span><a href="https://history-geography-lessons-cheng.ivanxia1988.chatgpt.site">返回30课课程目录 →</a></footer>
+<noscript><p>请启用JavaScript使用地点互动与地图切换。</p></noscript>
+</body></html>

@@ -1,0 +1,258 @@
+{
+  "date": "2026-09-27",
+  "environment": "Local browser, final audit of previously published lessons unchanged by this batch",
+  "lessons": [
+    {
+      "lesson": 4,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "马跑得快，军队就能一直快吗？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "骑兵来到城市外，会遇到什么新问题？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "路走得远，消息怎样追上军队？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "到了江河与城池密集的地方，优势会改变吗？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "面对海，骑兵的远征方式还能照用吗？"
+        }
+      ],
+      "firstDisabled": true,
+      "lastDisabled": true,
+      "hintVisible": true
+    },
+    {
+      "lesson": 5,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "相似的语言，为什么没有组成一个国家？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "雅典为什么需要一个海港？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "隔着山的邻居，为什么可能过着不同生活？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "跨过爱琴海，还是希腊世界吗？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "为什么西西里岛也会出现希腊城邦？"
+        }
+      ],
+      "firstDisabled": true,
+      "lastDisabled": true,
+      "hintVisible": true
+    },
+    {
+      "lesson": 6,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "地图下面，为什么叫“上埃及”？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "为什么聚落沿着一条窄带分布？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "有了河水，国家就会自动出现吗？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "谁在支撑金字塔之外的生活？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "一条窄河谷，为什么在北方展开？"
+        }
+      ],
+      "firstDisabled": true,
+      "lastDisabled": true,
+      "hintVisible": true
+    },
+    {
+      "lesson": 7,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "同叫“两河流域”，环境都一样吗？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "田地为什么需要城市，城市又需要什么？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "记录一袋粮，为什么也很重要？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "上游多开一个取水口，下游怎么办？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "今天的海岸，能直接拿来画古代港口吗？"
+        }
+      ],
+      "firstDisabled": true,
+      "lastDisabled": true,
+      "hintVisible": true
+    },
+    {
+      "lesson": 8,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "张骞为什么出发，而不是去卖丝绸？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "为什么要从山与荒漠之间经过？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "守住通道，为什么也要经营田地？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "到了走廊西端，路为什么分开？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "走出河西后，还要面对哪些地理条件？"
+        }
+      ],
+      "firstDisabled": true,
+      "lastDisabled": true,
+      "hintVisible": true
+    },
+    {
+      "lesson": 9,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "水从山里出来，为什么难管了？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "为什么先把一股水分成两股？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "为什么有时要把已经引来的水放走？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "入口为什么需要控制？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "工程修好以后，为什么还需要年年维护？"
+        }
+      ],
+      "firstDisabled": true,
+      "lastDisabled": true,
+      "hintVisible": true
+    },
+    {
+      "lesson": 10,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "出征之前，粮食和人从哪里来？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "为什么先在一片山间盆地组织力量？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "有一条近路，为什么不一定运得过大军？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "为什么向西北展开，而不是只盯着长安？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "到了前线，为什么还要解决种粮问题？"
+        }
+      ],
+      "firstDisabled": true,
+      "lastDisabled": true,
+      "hintVisible": true
+    },
+    {
+      "lesson": 11,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "为什么要把几片流域接起来？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "船怎样从一条河转进另一套水系？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "一座交会城市为什么需要仓储和转运？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "过了长江，为什么还需要另一段水道？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "工程长期有用，就说明修建过程没有问题吗？"
+        }
+      ],
+      "firstDisabled": true,
+      "lastDisabled": true,
+      "hintVisible": true
+    },
+    {
+      "lesson": 12,
+      "nodes": [
+        {
+          "position": "01 / 05",
+          "title": "一幅繁华的画，为什么先要找城市位置？"
+        },
+        {
+          "position": "02 / 05",
+          "title": "首都选址，交通和防御会要求同一件事吗？"
+        },
+        {
+          "position": "03 / 05",
+          "title": "画里看不见的上游劳动，怎样进入城市？"
+        },
+        {
+          "position": "04 / 05",
+          "title": "为什么码头也是一座城市里的重要工作场所？"
+        },
+        {
+          "position": "05 / 05",
+          "title": "繁华属于城内，还是也属于远处的田地？"
+        }
+      ],
+      "firstDisabled": true,
+      "lastDisabled": true,
+      "hintVisible": true
+    }
+  ]
+}
